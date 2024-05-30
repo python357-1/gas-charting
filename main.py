@@ -26,4 +26,4 @@ plt.plot(shell["scraped_time"], shell['price'], label='shell')
 
 plt.legend()
 
-plt.show()
+plt.savefig("chart.png")
