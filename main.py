@@ -1,4 +1,5 @@
 DATA_URL = ""
+SAVE_DIRECTORY = ""
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -26,4 +27,4 @@ plt.plot(shell["scraped_time"], shell['price'], label='shell')
 
 plt.legend()
 
-plt.savefig("chart.png")
+plt.savefig(SAVE_DIRECTORY + "chart.png")
